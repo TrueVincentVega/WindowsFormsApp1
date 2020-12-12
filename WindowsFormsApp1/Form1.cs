@@ -227,6 +227,10 @@ namespace WindowsFormsApp1
             }
         }
 
-        
+        private void propertiesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PropertiesForm propertiesForm = new PropertiesForm(this);
+            propertiesForm.Show();
+        }
     }
 }
